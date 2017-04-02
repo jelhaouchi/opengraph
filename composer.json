@@ -1,0 +1,35 @@
+{
+    "name": "jelhaouchi/open-graph-bundle",
+    "description": "Open Graph Bundle for Symfony Projects",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ELHAOUCHI Jawad",
+            "email": "jawad.elhaouchi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unikorp\\OpenGraphBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unikorp\\OpenGraphBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.7",
+        "symfony/http-kernel": "^3.2",
+        "symfony/config": "^3.2",
+        "symfony/dependency-injection": "^3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^3.2",
+        "symfony/yaml": "^3.2",
+        "symfony/console": "^3.2",
+        "phpunit/phpunit": "^5.7",
+        "nesbot/carbon": "~1.14"
+    }
+}
